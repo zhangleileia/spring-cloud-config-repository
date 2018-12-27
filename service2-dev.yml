@@ -1,0 +1,4 @@
+spring:
+  redis: 
+    password: service2-dev
+

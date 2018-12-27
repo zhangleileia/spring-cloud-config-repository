@@ -1,8 +1,0 @@
-spring:
-  redis: 
-    password: a
-    port: a
-    host: a
-  data:
-    mongodb:
-      uri: aaaaaaaaaaa

@@ -1,0 +1,33 @@
+
+server:
+  port: 8181
+  
+# remote git  
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/zhangleileia/spring-cloud-config-repository
+#          username: zhangleileia
+#          password: yy2651611
+
+
+
+# ---native
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared
+  profiles:
+     active: native
+  application:
+    name: config-server
+
+
+
+

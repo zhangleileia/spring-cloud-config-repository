@@ -1,3 +1,1 @@
-spring:
-  redis: 
-    password: service1-test
+profile: test-1.0

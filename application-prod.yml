@@ -1,0 +1,9 @@
+spring:
+  redis: 
+    password: prod
+    port: prod
+    host: prod
+  data:
+    mongodb:
+      uri: prod
+

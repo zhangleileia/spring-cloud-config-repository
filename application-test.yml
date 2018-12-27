@@ -1,0 +1,8 @@
+spring:
+  redis: 
+    password: test
+    port: test
+    host: test
+  data:
+    mongodb:
+      uri: test
